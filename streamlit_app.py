@@ -61,9 +61,8 @@ streamlit.dataframe(my_data_rows)
 
 
 # New Section to display fruityvice api response
-streamlit.header("Fruityvice Fruit Advice!")
-fruit_choice_1 = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.write('Thank you for adding ', fruit_choice_1)
+add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
+streamlit.write('Thank you for adding ', add_my_fruit)
 
 
 # import requests
